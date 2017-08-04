@@ -30,3 +30,7 @@ The perfect ReactJS stack according to us.
 
     yarn run prestart
     yarn run start
+
+## What you can see out of the box
+
+![screenshot](https://i.snag.gy/5ZIglR.jpg)
