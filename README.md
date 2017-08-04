@@ -8,10 +8,16 @@ The perfect ReactJS stack according to us.
 - MobX as state.
 - Next.js /w Express server (SSR).
 - Axios as the http client.
-- Apisauce for standardization of the api call.
 - SASS via `styled-jsx`.
 - GZIP by `compression`.
 - `hpp` & `helmet` for security. Also forces `https`.
+
+## Our Fork 
+
+- [+] Apisauce for standardization of the api call.
+- [+] Add the crazy cool Grommet UI Kit. 
+- [+] Add Mobx store example.
+- [-] Remove MongoDB dep.
 
 ## Development
 

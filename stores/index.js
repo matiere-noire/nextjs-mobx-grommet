@@ -1,20 +1,20 @@
-import User from './user';
+import myStore from './MyStore'
 
-let store = null;
+let store = null
 
 export default class Store {
-  constructor(isServer, user) {
-    this.user = new User(user);
-  }
+	constructor() {
+		this.myStore = myStore
+	}
 }
 
-export function initStore(isServer, user) {
-  if (isServer && typeof window === 'undefined') {
-    return new Store(isServer, user);
-  } else {
-    if (store === null) {
-      store = new Store(isServer, user);
-    }
-    return store;
-  }
+export function initStore(isServer) {
+	if (isServer && typeof window === 'undefined') {
+		return new Store()
+	} else {
+		if (store === null) {
+			store = new Store()
+		}
+		return store
+	}
 }
