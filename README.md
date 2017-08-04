@@ -4,7 +4,7 @@ The perfect ReactJS stack according to us.
 
 ## Features
 
-- ⚛️ React as the view.
+- React as the view.
 - MobX as state.
 - Next.js /w Express server (SSR).
 - Axios as the http client.
@@ -14,8 +14,8 @@ The perfect ReactJS stack according to us.
 
 ## Our Fork 
 
-- [+] Apisauce for standardization of the api call.
-- [+] Add the crazy cool Grommet UI Kit. 
+- [+] [Apisauce](https://github.com/skellock/apisauce) for standardization of the api call.
+- [+] Add the crazy nice [Grommet UI Kit](https://grommet.github.io). 
 - [+] Add Mobx store example.
 - [-] Remove MongoDB dep.
 
@@ -25,3 +25,8 @@ The perfect ReactJS stack according to us.
     cd nextjs-mobx-grommet
     yarn install
     yarn run dev
+
+## Production
+
+    yarn run prestart
+    yarn run start
